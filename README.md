@@ -233,3 +233,10 @@ instead of persisting to a file.
 
 - Regenerate the asset table with `python generate_assets.py --root . --out build\generated` on demand if you ever want a manual refresh.
 - The controller-exclusivity handoff (neutralizing real input while this app has focus) uses a named Windows event, `Local\CemuToypadPickerInputActive`. This string must match the corresponding check in the Cemu fork's `Controller.cpp` exactly, or the handoff will silently stop working.
+
+## Dimensions Recompiled handoff
+
+I have ended my work on Dimensions Recompiled. This repository is preserved as a read-only reference. The existing source and any release downloads remain available.
+
+- [Final Native GPU release](https://github.com/NeverCookFirst/DimensionsRecomp/releases/tag/v0.2.0)
+- [Project handoff and original build](https://github.com/NeverCookFirst/DimensionsRecomp/blob/main/PROJECT-HANDOFF.md)
